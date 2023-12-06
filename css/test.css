@@ -24,7 +24,7 @@ body {
 /* START SCREEN */
 
 .body-start {
-	background-image: url("./images/background.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/background.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -33,7 +33,7 @@ body {
 }
 
 .title-start {
-	background-image: url("./images/colorfulchina.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/colorfulchina.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -60,7 +60,7 @@ body {
 }
 
 .wheel-start {
-	background-image: url("./images/wheel.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/wheel.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -364,6 +364,8 @@ p {
 
 #arrow strong {
 	color: var(--color-default);
+	font-family: Inter;
+	font-weight: 400;
 }
 
 #arrow img {
