@@ -33,7 +33,7 @@ body {
 }
 
 .title-start {
-	background-image: url("/final-project-fall-2022-colorful-china/src/images/colorfulchina.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/colorfulchina.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -85,7 +85,7 @@ body {
 
 /* SELECTION SCREEN */
 .body-selection {
-	background-image: url("/images/background.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/background.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -118,7 +118,7 @@ body {
 #wheel {
 	position: absolute;
 	transition: 1s ease;
-	background-image: url("/images/wheel.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/wheel.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -137,7 +137,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	opacity: 1;
-	background-image: url("/images/yellow.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/yellow.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -152,7 +152,7 @@ body {
 	left: -10%;
 	transform: translate(-50%, -50%);
 	opacity: 0.5;
-	background-image: url("/images/red.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/red.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -167,7 +167,7 @@ body {
 	left: 110%;
 	transform: translate(-50%, -50%);
 	opacity: 0.5;
-	background-image: url("/images/white.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/white.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -182,7 +182,7 @@ body {
 	left: 15%;
 	transform: translate(-50%, -50%);
 	opacity: 0.5;
-	background-image: url("/images/blue.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/blue.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -197,7 +197,7 @@ body {
 	left: 85%;
 	transform: translate(-50%, -50%);
 	opacity: 0.5;
-	background-image: url("/images/black.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/black.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -259,7 +259,7 @@ body {
 /* GALLERY SCREEN */
 
 .body-gallery {
-	background-image: url("/images/background.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/background.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -284,7 +284,7 @@ body {
 }
 
 .wheel-gallery {
-	background-image: url("/images/wheel.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/wheel.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -448,7 +448,7 @@ p {
 /* YELLOW */
 
 .calli-yellow {
-	background-image: url("/images/huang.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/huang.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -587,7 +587,7 @@ p {
 /* BLUE */
 
 .calli-blue {
-	background-image: url("/images/qing.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/qing.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -726,7 +726,7 @@ p {
 /* RED */
 
 .calli-red {
-	background-image: url("/images/chi.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/chi.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -865,7 +865,7 @@ p {
 /* BLACK */
 
 .calli-black {
-	background-image: url("/images/hei.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/hei.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -1004,7 +1004,7 @@ p {
 /* WHITE */
 
 .calli-white {
-	background-image: url("/images/bai.png");
+	background-image: url("/final-project-fall-2022-colorful-china/images/bai.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
