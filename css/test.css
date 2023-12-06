@@ -83,6 +83,99 @@ body {
 	z-index: 1;
 }
 
+.about {
+	border-radius: 0.5rem;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+	width: 6rem;
+	height: 2.5rem;
+	position: absolute;
+	right: 5%;
+	top: 2%;
+	z-index: 3;
+}
+
+/* ABOUT SCREEN */
+.body-about {
+	background-image: url("/final-project-fall-2022-colorful-china/images/background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 14rem;
+
+	@media screen and (min-width: 480px) {
+		margin-top: 0rem;
+	}
+}
+
+.body-about::after {
+	content: "";
+	background-color: rgb(255 255 255 / 75%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.home {
+	border-radius: 0.5rem;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+	width: 6rem;
+	height: 2.5rem;
+	position: absolute;
+	right: 5%;
+	top: 2%;
+	z-index: 3;
+}
+
+.about-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2.5rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+
+	@media screen and (min-width: 480px) {
+		flex-direction: row;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	color: var(--color-default);
+	text-align: center;
+	font-family: Inter;
+	font-weight: 700;
+}
+
+.about20 {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.about10,
+.about21,
+.about22,
+.about23,
+.about30 {
+	background-color: white;
+	filter: drop-shadow(0 5px 10px #161823);
+	border: 0.5rem solid var(--color-default);
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+
 /* SELECTION SCREEN */
 .body-selection {
 	background-image: url("/final-project-fall-2022-colorful-china/images/background.png");
@@ -142,9 +235,14 @@ body {
 	background-position: center;
 	background-size: contain;
 	filter: drop-shadow(0 5px 10px #FFC107);
-	width: 30rem;
-	height: 10rem;
+	width: 13.5rem;
+	height: 4.5rem;
 	z-index: 1;
+
+	@media screen and (min-width: 480px) {
+		width: 27rem;
+		height: 9rem;
+	}
 }
 
 #red {
@@ -157,9 +255,14 @@ body {
 	background-position: center;
 	background-size: contain;
 	filter: drop-shadow(0 5px 10px #DC3545);
-	width: 21rem;
-	height: 7rem;
+	width: 10.5rem;
+	height: 3.5rem;
 	z-index: 1;
+
+	@media screen and (min-width: 480px) {
+		width: 21rem;
+		height: 7rem;
+	}
 }
 
 #white {
@@ -172,9 +275,14 @@ body {
 	background-position: center;
 	background-size: contain;
 	filter: drop-shadow(0 5px 10px #FFE5D0);
-	width: 27rem;
-	height: 9rem;
+	width: 13.5rem;
+	height: 4.5rem;
 	z-index: 1;
+
+	@media screen and (min-width: 480px) {
+		width: 27rem;
+		height: 9rem;
+	}
 }
 
 #blue {
@@ -187,9 +295,14 @@ body {
 	background-position: center;
 	background-size: contain;
 	filter: drop-shadow(0 5px 10px #0D6EFD);
-	width: 21rem;
-	height: 7rem;
+	width: 10.5rem;
+	height: 3.5rem;
 	z-index: 1;
+
+	@media screen and (min-width: 480px) {
+		width: 21rem;
+		height: 7rem;
+	}
 }
 
 #black {
@@ -202,34 +315,49 @@ body {
 	background-position: center;
 	background-size: contain;
 	filter: drop-shadow(0 5px 10px #161823);
-	width: 27rem;
-	height: 9rem;
+	width: 13.5rem;
+	height: 4.5rem;
 	z-index: 1;
+
+	@media screen and (min-width: 480px) {
+		width: 27rem;
+		height: 9rem;
+	}
 }
 
 #rotate-button-left {
 	position: absolute;
+	transition: 1s ease;
 	transform: scale(0.75);
 	top: 35%;
-	left: 10%;
+	left: 5%;
 	z-index: 2;
 
 	@media screen and (min-width: 480px) {
+		top: 45%;
+	}
+
+	@media screen and (min-width: 768px) {
 		transform: scale(1.0);
-		top: 40%;
+		left: 10%;
 	}
 }
 
 #rotate-button-right {
 	position: absolute;
+	transition: 1s ease;
 	transform: scale(0.75);
 	top: 35%;
-	right: 10%;
+	right: 5%;
 	z-index: 3;
 
 	@media screen and (min-width: 480px) {
+		top: 45%;
+	}
+
+	@media screen and (min-width: 768px) {
 		transform: scale(1.0);
-		top: 40%;
+		right: 10%;
 	}
 }
 
