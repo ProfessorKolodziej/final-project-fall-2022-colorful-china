@@ -60,7 +60,7 @@ body {
 }
 
 .wheel-start {
-	background-image: url("/final-project-fall-2022-colorful-china/images/wheel.png");
+	background-image: url("./final-project-fall-2022-colorful-china/images/wheel.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
